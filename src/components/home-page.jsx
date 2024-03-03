@@ -6,9 +6,9 @@ import SingleCard from './single-cards';
 const cardImages = [
 	{ src: '/img/book.png', matched: false },
 	{ src: '/img/cat.png', matched: false },
+	{ src: '/img/magic-ball.png', matched: false },
 	{ src: '/img/necromancer.png', matched: false },
-	{ src: '/img/potion.png', matched: false },
-	{ src: '/img/skill.png', matched: false },
+	{ src: '/img/voodoo.png', matched: false },
 	{ src: '/img/witch-broom.png', matched: false },
 ];
 
