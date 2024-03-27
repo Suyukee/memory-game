@@ -83,3 +83,22 @@ button:hover {
 	transform: rotateY(90deg);
 	transition-delay: 0s;
 }
+
+@media (max-width: 875px) {
+	.card-grid {
+		margin: 40px auto 2rem;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+@media (max-width: 640px) {
+	.card img {
+		width: 150px;
+	}
+}
+
+@media (max-width: 490px) {
+	.card img {
+		width: 100px;
+	}
+}
