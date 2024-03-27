@@ -83,7 +83,14 @@ button:hover {
 	transition-delay: 0s;
 }
 
-@media (max-width: 875px) {
+@media (max-width: 700px) {
+	.main {
+		margin: 20px auto;
+		font-size: 20px;
+	}
+	h1 {
+		margin: 1rem;
+	}
 	.card-grid {
 		margin: 20px 10px 1rem;
 		grid-template-columns: 1fr 1fr 1fr;
