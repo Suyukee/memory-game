@@ -43,11 +43,10 @@ button:hover {
 }
 
 .card-grid {
-	margin-top: 40px;
+	margin: 40px 20px 2rem;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap: 20px;
-	margin-bottom: 2rem;
 }
 
 .card {
@@ -55,7 +54,7 @@ button:hover {
 }
 
 .card img {
-	width: 200px;
+	width: 100%;
 	display: block;
 	border: 2px solid #fff;
 	border-radius: 6px;
@@ -85,28 +84,9 @@ button:hover {
 }
 
 @media (max-width: 875px) {
-	.main {
-		max-width: 660px;
-	}
-	.card img {
-		width: 150px;
-	}
-}
-
-@media (max-width: 655px) {
-	.main {
-		max-width: 490px;
-	}
 	.card-grid {
+		margin: 20px 10px 1rem;
 		grid-template-columns: 1fr 1fr 1fr;
-	}
-}
-
-@media (max-width: 505px) {
-	.main {
-		max-width: 320px;
-	}
-	.card img {
-		width: 100px;
+		grid-gap: 10px;
 	}
 }
