@@ -60,7 +60,7 @@ button:hover {
 	border-radius: 6px;
 }
 
-/* front of card - the picture */
+/* Передняя сторона / картинка */
 .card .front {
 	transform: rotateY(90deg);
 	transition: all ease-in 0.2s;
@@ -72,7 +72,7 @@ button:hover {
 	transition-delay: 0.2s;
 }
 
-/* back of card - cover */
+/* Оборотная сторона / рубашка */
 .card .back {
 	transition: all ease-in 0.2s;
 	transition-delay: 0.2s;
@@ -98,10 +98,11 @@ button:hover {
 	}
 }
 
-@media (orientation: landscape) {
+@media (max-height: 700px) and (orientation: landscape) {
 	.main {
 		margin: 20px auto;
 		font-size: 20px;
+		transform: rotateX(100px);
 	}
 	h1 {
 		margin: 1rem;
