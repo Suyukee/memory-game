@@ -1,19 +1,19 @@
-## About the application
+## О приложении
 
-Web application is a memory game in which you need to find paired cards
+Веб-приложение представляет собой игру на память, в которой нужно находить парные карточки.
 
-## Realization
+## Реализация
 
-Application created using react, nextjs, css, BEM-methodology
+Приложение создано с использованием React, nextjs, css, BEM-методологии.
 
-The site is adapted for all devices
+Сайт адаптирован под все устройства
 
-## Deploy on Vercel
+## Деплой на Vercel
 
-The application can be viewed at the link:
+Приложение можно посмотреть по ссылке:
 [https://blog-on-react-three.vercel.app/](https://memory-game-nine-beryl.vercel.app/)
 
-## Examples
+## Примеры
 
 ![изображение](https://github.com/Suyukee/memory-game/assets/39066019/e8806da8-7dd4-4f42-8877-8e7c2e5108c4)
 ![изображение](https://github.com/Suyukee/memory-game/assets/39066019/a8b1f2d1-64aa-40dd-a04a-a48bf95c87c3)
